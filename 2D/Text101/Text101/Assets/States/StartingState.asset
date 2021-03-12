@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: StartingState
+  m_EditorClassIdentifier: Assembly-CSharp::State
+  storyText: "\u015Anieg, wsz\u0119dzie \u015Bnieg. Budzisz si\u0119 rano. W pokoju
+    ciep\u0142o.\r\nW \u015Bnie s\u0142ysza\u0142e\u015B to, d\u017Awi\u0119k dzwonk\xF3w.\r\nJest
+    6. grudnia.\r\n\r\nCo robisz?\r\n1. Wybieram pok\xF3j Pierwszy.\r\n2. Wybieram
+    pok\xF3j Drugi.\n3. Wybieram pok\xF3j Trzeci."
+  nextStates:
+  - {fileID: 11400000, guid: 1e26126598b9de44fbafbcefbdddd5fc, type: 2}
+  - {fileID: 11400000, guid: 2cb423f20a0dab8488c75f5c4c8ec67e, type: 2}
+  - {fileID: 11400000, guid: 210de460e5a11f94fb320e6c39920488, type: 2}
