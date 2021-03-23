@@ -11,17 +11,18 @@ public class SceneLoader : MonoBehaviour
         }
     public void LoadStartScene()
     {
-               /*int startScene;  
-               int sceneNumber = SceneManager.sceneCount;
-               for (var i = sceneNumber; i >= 0; i--)
-               {
-                   if (i == 0)
-                   {
-                       startScene = i;
-                       SceneManager.LoadScene(startScene);
-                   }
-               }*/
+        /*int startScene;  
+        int sceneNumber = SceneManager.sceneCount;
+        for (var i = sceneNumber; i >= 0; i--)
+        {
+            if (i == 0)
+            {
+                startScene = i;
+                SceneManager.LoadScene(startScene);
+            }
+        }*/
 
+        FindObjectOfType<GameStatus>().DestroyOnSceneLoad();     
         SceneManager.LoadScene(0);
     }
 
